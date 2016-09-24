@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 import subprocess, re
 PIPE = subprocess.PIPE
 keyboard = subprocess.check_output(['skb', '-now']).strip()
