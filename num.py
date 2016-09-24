@@ -4,7 +4,7 @@ PIPE = subprocess.PIPE
 keyboard = subprocess.check_output(['skb', '-now']).strip()
 keyboard = str(keyboard)
 if keyboard == 'b\'Eng\'':
-	print ("${image ~/progs/USA.png -p 145,755 -s 80x60 }")
+	print ("${image ~/progs/USA.png -p 145,755 -s 80x60 }") # -p - положение в коньках, -s размер картинки
 else:
 	print ("${image ~/progs/RUS.png -p 145,755 -s 80x60 }")
 #---------------------------------------------
